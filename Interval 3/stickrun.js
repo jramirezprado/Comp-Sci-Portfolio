@@ -14,6 +14,7 @@ var box = {
         ctx.beginPath();    
         ctx.rect(this.x, this.y,this.w,this.h);  
         ctx.stroke();
+        
     },
     move: function(){
       this.x = this.x - 2; 
